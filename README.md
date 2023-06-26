@@ -1,6 +1,6 @@
 # Example Scripts
 
-## Running Smart Wallets Example
+## Running Create or Fetch Smart Wallet Example
 
 
 1. Install packages by running `npm install`
