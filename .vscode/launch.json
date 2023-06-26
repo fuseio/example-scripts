@@ -1,0 +1,21 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Smart Wallets Script Debug",
+            "program": "${workspaceFolder}/smart-wallets-script.ts",
+            "outFiles": [
+                "${workspaceFolder}/**/*.js"
+            ],
+            "trace": true,
+            "runtimeExecutable": "npm",
+            "runtimeArgs": ["run-script", "run-smart-wallets-debug", "--preserve-symlinks"]
+        }
+    ]
+}

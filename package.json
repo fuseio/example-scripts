@@ -1,0 +1,26 @@
+{
+  "name": "scripts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "create-or-fetch-smart-wallet": "npx ts-node -e 'require(\"./create-or-fetch-smart-wallet.ts\").init()'"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ethersproject/providers": "^5.6.8",
+    "@web3auth/modal": "^3.0.3",
+    "centrifuge": "^3.1.2",
+    "dotenv": "^16.3.1",
+    "perf_hooks": "^0.0.1",
+    "web3": "^1.8.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.4"
+  },
+  "runtimeArgs": [
+    "--preserve-symlinks"
+  ]
+}
